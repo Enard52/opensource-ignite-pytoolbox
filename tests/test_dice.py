@@ -17,7 +17,6 @@ def test_dice_default_in_range():
     assert 1 <= value <= 6
 
 
-@pytest.mark.xfail(strict=True, reason="See ISSUES.md #2")
 def test_dice_can_roll_max_value():
     rolled = set()
     for _ in range(40):

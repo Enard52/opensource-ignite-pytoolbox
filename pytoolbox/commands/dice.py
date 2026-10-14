@@ -10,7 +10,7 @@ console = Console()
 
 
 def _roll(sides: int) -> int:
-    return random.randint(1, sides - 1)
+    return random.randint(1, sides)
 
 
 def _describe(result: int, sides: int) -> str:
